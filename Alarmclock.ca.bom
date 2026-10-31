@@ -1,0 +1,75 @@
+BILL OF MATERIALS
+Project: Alarmclock.ca
+Repository: https://github.com/spacedivee/alarmclock.ca
+Revision: 1.0
+Date: 2026-10-30
+
+This BOM is based on the hardware and quantities listed in the project's README.
+Prices and manufacturer part numbers are not included because they are not specified
+in the repository. Confirm all quantities against the final assembled build.
+
+ITEMS
+-----
+Item: Seeed XIAO ESP32C3
+Description: Main microcontroller
+Quantity: 1
+Source: BLARE kit
+
+Item: 2.25-inch ST7789 TFT display
+Description: Clock display
+Quantity: 1
+Source: BLARE kit
+
+Item: 3.3 V piezo buzzer
+Description: Audible alarm output
+Quantity: 1
+Source: BLARE kit
+
+Item: MX-style keyboard switch
+Description: User input switch
+Quantity: 4
+Source: BLARE kit
+
+Item: White DSA keycap
+Description: Keycap for keyboard switch
+Quantity: 4
+Source: BLARE kit
+
+Item: Display header and jumper wires
+Description: Display connection hardware
+Quantity: 1 set
+Source: BLARE kit
+
+Item: Rotary encoder
+Description: User input / navigation
+Quantity: 1
+Source: User supplied
+
+Item: Auxiliary battery pack
+Description: Portable power source
+Quantity: 1
+Source: User supplied
+
+Item: Power switch
+Description: Physical power control for auxiliary supply
+Quantity: 1
+Source: User supplied
+
+Item: Custom PCB
+Description: Main circuit board
+Quantity: 1
+Source: Custom-designed in KiCad
+
+Item: Custom enclosure
+Description: Clock housing
+Quantity: 1
+Source: Custom-designed / 3D printed
+
+NOTES
+-----
+- The BLARE kit contains additional switches, keycaps, diodes, headers, jumper wires,
+  heat-set inserts and screws. This BOM lists the quantities/components identified
+  for this project in the repository README; unused kit spares are not counted.
+- The auxiliary battery pack and its power switch are listed separately.
+- Unit prices, extended prices, vendors and manufacturer part numbers should be added
+  if required for purchasing or grant reimbursement.
